@@ -1,0 +1,7 @@
+### 3legant. ###
+
+Pages:
+    -Home
+    -shop
+    -Product
+    -Contact Us
