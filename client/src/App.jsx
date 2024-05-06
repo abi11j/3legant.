@@ -1,9 +1,10 @@
 import React from 'react'
+import Homepage from './pages/home'
 
 function App() {
   return (
-    <div className='text-red-300'>
-      This is react with tailwind
+    <div>
+      <Homepage/>
     </div>
   )
 }
