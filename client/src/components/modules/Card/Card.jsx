@@ -48,7 +48,7 @@ function Card(props) {
                 <div className='w-full'>
                     <div className='w-full flex justify-between items-center'>
                         <h1 className='text-[#121212] poppins font-medium text-[28px] tracking-[-0.6px] leading-[34px]'>Card</h1>
-                        <img className='w-[24px] h-[24px]' onClick={props.change} src={exitImg} alt="" />
+                        <img className='w-[24px] h-[24px] cursor-pointer' onClick={props.change} src={exitImg} alt="" />
                     </div>
                     <div className="product-slider-container flex flex-col gap-[16px]">
                         <Slider {...settings}>
